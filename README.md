@@ -1,66 +1,66 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p> -->
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<!-- <p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+</p> -->
 
-## About Laravel
+# Project Introduction
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+This is a Simplified Custom Inventory Management System (IMS) using- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="300"></a></p>
+It's task based project meaning the software is being used this very moment while you are reading this article. I will try to cover all the sections of this project .
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+# Approach
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+This project was divided in _`5 different action`_. I've descriptive videos explaining the actions and giving a project over view
 
-## Learning Laravel
+-   \*\*ProductData show page
+-   \*\*Signup page
+-   \*\*login page
+-   \*\*Data Insert page
+-   \*\*Data Update page
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<br>
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+# productData show page Overview
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<img src="https://github.com/ahmedjamil007/taskprojectmedia/blob/main/Screenshot%20(826).png" width="100%">
 
-## Laravel Sponsors
+On this page user can see product data and can register and login.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## register page Overview
 
-### Premium Partners
+This portion ,user can register through name,email,and password
+<img src="https://github.com/ahmedjamil007/taskprojectmedia/blob/main/Screenshot%20(827).png" width="100%">
+<br>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+# Login page Overview
 
-## Contributing
+After registration, the user will enter the main inventory management by logging in the log in page, where the user can insert, update, delete new products.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<img src="https://github.com/ahmedjamil007/taskprojectmedia/blob/main/Screenshot%20(828).png" width="100%">
+<img src="https://github.com/ahmedjamil007/taskprojectmedia/blob/main/Screenshot%20(829).png" width="100%">
+# Insertpage Overview
 
-## Code of Conduct
+In that page user can insert new product name,quantity and price
+<img src="https://github.com/ahmedjamil007/taskprojectmedia/blob/main/Screenshot%20(831).png" width="100%">
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+# Updatepage Overview
 
-## Security Vulnerabilities
+In that page user can upadate product name,quantity and price
+<img src="https://github.com/ahmedjamil007/taskprojectmedia/blob/main/Screenshot%20(830).png" width="100%">
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+# Requirement
 
-## License
+## Software
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+| Topics    | Specifications        |
+| --------- | --------------------- |
+| OS        | Windows 7/8/8.1/10/11 |
+| Front End | HTML, CSS, JavaScript |
+| Back End  | PHP 8.0.7             |
+| Framework | LARAVEL 10            |
+| Database  | MySQL                 |
+| Tools     | XAMPP                 |

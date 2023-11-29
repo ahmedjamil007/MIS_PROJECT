@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f3f5f9;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+/*--------------------------------------------------- sidebar------------------------------------------------------- css */
+.wrapper .sidebar {
+    width: 200px;
+    height: 100%;
+    background: #4b4276;
+    padding: 30px 0px;
+    position: fixed;
+}
+
+.wrapper .sidebar h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.wrapper .sidebar p {
+    font-size: 12px;
+}
+
+.wrapper .sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid #bdb8d7;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.wrapper .sidebar ul li a {
+    color: #bdb8d7;
+    display: block;
+}
+
+.wrapper .sidebar ul li a .fas {
+    width: 25px;
+}
+
+.wrapper .sidebar ul li:hover {
+    background-color: #594f8d;
+}
+
+.wrapper .sidebar ul li:hover a {
+    color: #fff;
+} /* ------------------------------------------------------sider css end-------------------------------------------------------------- */
+
+.wrapper .main_content {
+    width: 100%;
+    margin-left: 180px;
+}
+/* ------------------------------------------------------headercssstart-------------------------------------------------------------- */
+.wrapper .main_content .header {
+    padding: 37px;
+    background: #fff;
+    color: #4b4276;
+    font-weight: bold;
+    border-bottom: 1px solid #e0e4e8;
+}
+.wrapper .main_content .header .fab {
+    float: right;
+    color: black;
+}
+.wrapper .main_content .header .fab .sinlog {
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 15px;
+    background: black;
+    color: black;
+    font-weight: bold;
+} /* ------------------------------------------------------header css end-------------------------------------------------------------- */
+
+.wrapper .main_content .info {
+    margin: 20px;
+    color: #717171;
+    line-height: 25px;
+}
+
+.wrapper .main_content .info div {
+    margin-bottom: 20px;
+}
+
+@media (max-height: 500px) {
+    .social_media {
+        display: none !important;
+    }
+}
+
+/*--------------------------------------- product-tabele css---------------------------------------------------- */
+table {
+    width: 95%;
+    border-collapse: collapse;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+    background: #eee;
+}
+
+th {
+    background: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* 
+  Max width before this PARTICULAR table gets nasty
+  This query will take effect for any screen smaller than 760px
+  and also iPads specifically.
+  */
+@media only screen and (max-width: 760px),
+    (min-device-width: 768px) and (max-device-width: 1024px) {
+    table {
+        width: 100%;
+    }
+
+    /* Force table to not be like tables anymore */
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        border: 1px solid #ccc;
+    }
+
+    td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        /* Label the data */
+        content: attr(data-column);
+
+        color: #000;
+        font-weight: bold;
+    }
+} /* ---------------------------------------------------product-tabele css end--------------------------------------------- */
+
+/*------------------------------------------------- product-tabele button css-------------------------------------------- */
+.button {
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.button1 {
+    background-color: #236f90;
+    border-radius: 15px;
+}
+.button2 {
+    background-color: #ef1212;
+    border-radius: 15px;
+}
+.button3 {
+    background-color: #22b115;
+    border-radius: 15px;
+    margin-left: 2%;
+}
+.button4 {
+    background-color: #d0d325ed;
+    border-radius: 15px;
+    margin-left: 15%;
+}
+/*---------------------------------------------- product-tabele button css----------------------------------------- */
+.paginate {
+    background-color: #3498db;
+    margin-left: 2%;
+    width: 12%;
+    padding: 5px;
+    border-radius: 12px;
+    color: #000;
+}

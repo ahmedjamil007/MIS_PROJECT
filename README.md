@@ -10,11 +10,11 @@
 # Project Introduction
 
 This is a Simplified Custom Inventory Management System (IMS) using- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="300"></a></p>
-It's task based project meaning the software is being used this very moment while you are reading this article. I will try to cover all the sections of this project .
+It's task based project . I will try to cover all the sections of this project .
 
 # Approach
 
-This project was divided in _`5 different action`_. I've descriptive videos explaining the actions and giving a project over view
+This project was divided in _`5 different action`_. I've giving  over view of every action in this project
 
 -   \*\*ProductData show page
 -   \*\*Signup page

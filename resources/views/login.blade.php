@@ -30,7 +30,7 @@
             <button type="submit" value="submit">Login</button>
           </form> <!----------------------------formend-------------------------------------------------------------------------->
 
-          <div class="switch">Don't have an account? <a href="/signin" >Register here</a></div>
+          <div class="switch">Don't have an account? <a href="/signup" >Register here</a></div>
 
         </div>
       

@@ -13,7 +13,7 @@
     <div>
       <form action="{{ route('addproudct') }}" method="POST">
         @csrf
-        <label for="name">Name</label>
+        <label for="name">Product Name</label>
         <input type="text" id="name" name="name" placeholder=" Name..">
     
         <label for="quantity">Quantity</label>

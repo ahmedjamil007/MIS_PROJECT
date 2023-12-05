@@ -13,7 +13,7 @@
 <div>
   <form action="{{ route('update.user',$data->id) }}" method="POST">
     @csrf
-    <label for="name">Name</label>
+    <label for="name">Product Name</label>
     <input type="text" value="{{ $data->name }}" id="name" name="name" placeholder=" Name..">
 
     <label for="quantity">Quantity</label>

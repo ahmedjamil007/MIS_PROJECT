@@ -20,7 +20,7 @@
         <input type="number" id="quantity" name="quantity" placeholder="quantity..">
         
         <label for="Price">Price</label>
-        <input type="number" id="price" name="price" placeholder="price..">
+        <input type="text" id="price" name="price" placeholder="price..">
       
         <input type="submit" value="Submit">
       </form>

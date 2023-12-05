@@ -20,7 +20,7 @@
     <input type="number"value="{{ $data->quantity }}" id="quantity" name="quantity" placeholder="Quantity..">
     
     <label for="price">Price</label>
-    <input type="number"value="{{ $data->price }}" id="price" name="price" placeholder="Price..">
+    <input type="text"value="{{ $data->price }}" id="price" name="price" placeholder="Price..">
   
     <input type="submit" value="Update Product">
   </form>

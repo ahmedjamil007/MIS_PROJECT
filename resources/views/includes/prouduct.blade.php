@@ -5,7 +5,7 @@
 <table>
     <thead>
       <tr>
-        <th> Name</th>
+        <th>Product Name</th>
         <th>Quantity</th>
         <th>Price</th>
 
